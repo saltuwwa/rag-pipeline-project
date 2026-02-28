@@ -1,0 +1,23 @@
+# RAG Pipeline - Assignment 1
+# Naive RAG + Advanced RAG
+
+# Core
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# PDF Parsing
+docling>=2.0.0
+llama-parse>=0.5.0
+
+# Embeddings & Reranking
+sentence-transformers>=3.0.0
+FlagEmbedding>=1.2.0
+
+# Vector DB & Utilities
+qdrant-client>=1.12.0
+rank-bm25>=0.2.2
+tiktoken>=0.7.0
+python-dotenv>=1.0.0
+nest_asyncio>=1.6.0
+numpy>=1.24.0

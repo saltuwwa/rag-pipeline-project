@@ -1,0 +1,28 @@
+# Секреты
+.env
+*.env
+
+# Кэш (эмбеддинги, парсинг)
+**/rag_cache.pkl
+
+# Векторная БД
+**/qdrant_data/
+**/qdrant_data_2/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
