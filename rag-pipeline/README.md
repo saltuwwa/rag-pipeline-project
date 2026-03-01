@@ -110,7 +110,7 @@ tiktoken qdrant-client nest_asyncio
    - `ktj.pdf` — отчёт КТЖ
    - `matnp_2024_rus.pdf` — отчёт Матен Петролеум
 
-2. Создать `.env` в `assignment_1/`:
+2. Создать `.env` в `rag-pipeline/`:
    ```
    OPENAI_API_KEY=sk-...
    LLAMAPARSE_API_KEY=llx-...
@@ -122,7 +122,7 @@ tiktoken qdrant-client nest_asyncio
 
 ## Запуск
 
-1. Открыть `assignment_1_rag_pipeline.ipynb` в Jupyter.
+1. Открыть `rag_pipeline.ipynb` в Jupyter.
 2. Выполнить ячейки по порядку: Config → Imports → Функции → Naive RAG → Qdrant → Advanced RAG.
 3. **LlamaParse:** парсинг ~1–2 мин (облако). **DocLing:** ~6–8 мин (локально). Кэш в `rag_cache.pkl` — повторные запуски без парсинга.
 4. Advanced RAG: `build_advanced_rag()` — hybrid search, reranker, query rewriting.
@@ -132,7 +132,7 @@ tiktoken qdrant-client nest_asyncio
 ## Структура проекта
 
 ```
-assignment_1/
+rag-pipeline/
 ├── data/
 │   ├── ktj.pdf
 │   ├── matnp_2024_rus.pdf
@@ -144,7 +144,7 @@ assignment_1/
 │   ├── matnp_parsed_llamaparse.md
 │   └── rag_cache.pkl           # кэш (парсинг + эмбеддинги)
 ├── qdrant_data/                # векторная БД
-├── assignment_1_rag_pipeline.ipynb
+├── rag_pipeline.ipynb
 ├── REFERENCE_LINKS.md
 └── README.md
 ```

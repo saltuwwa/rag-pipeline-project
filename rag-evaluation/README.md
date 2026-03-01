@@ -1,4 +1,4 @@
-# Задание 2: Эксперименты и оценка RAG-пайплайна
+# Эксперименты и оценка RAG-пайплайна
 
 Оценка влияния гиперпараметров на качество RAG-системы для годовых отчётов КТЖ и Матен Петролеум через RAGAS.
 
@@ -75,7 +75,7 @@ oderCross-enc — пара [query, passage] → score. Точнее bi-encoder, 
 
 ## Запуск
 
-1. Выполните `assignment_1/rag_pipeline.ipynb` → `data/ktj_parsed.md`, `data/matnp_parsed.md`
+1. Выполните `rag-pipeline/rag_pipeline.ipynb` → `data/ktj_parsed.md`, `data/matnp_parsed.md`
 2. `golden_dataset.json` — в `rag-evaluation/`
 3. `.env` с `OPENAI_API_KEY` (в корне или `rag-evaluation/`)
 4. `pip install ragas datasets sentence-transformers langchain langchain-openai rank-bm25 FlagEmbedding python-dotenv tiktoken`
