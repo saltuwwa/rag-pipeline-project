@@ -27,3 +27,8 @@ venv/
 .cursor/
 *.swp
 *.swo
+
+make_zip.ps1
+
+# Корневой README (общий) — не в репо
+/README.md
