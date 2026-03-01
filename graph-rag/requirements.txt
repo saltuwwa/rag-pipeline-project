@@ -1,0 +1,5 @@
+neo4j>=5.15.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-text-splitters>=0.3.0
+python-dotenv>=1.0.0
