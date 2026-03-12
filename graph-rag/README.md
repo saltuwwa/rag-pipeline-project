@@ -1,4 +1,4 @@
-# GraphRAG — Бонусное задание
+# GraphRAG
 
 Knowledge Graph на основе отчётов КТЖ и Матен Петролеум в Neo4j.
 
